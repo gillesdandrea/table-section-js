@@ -2,9 +2,9 @@
  * table-section.js v0.1.0
  */
 
-/*global jQuery, window, console */
+/*global jQuery, window */
 (function ($) {
-  "use strict";
+  'use strict';
   $.fn.tableSection = function (options) {
     var settings = $.extend({}, $.fn.tableSection.defaults, options);
 
@@ -33,7 +33,6 @@
     }
 
     function updateRowWidths() {
-      console.log("updateRowWidths()");
       $(".ts-table-section").each(function (index, table) {
         var $table = $(table),
             rows = $table.find(".ts-row-section"),
