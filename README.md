@@ -3,8 +3,6 @@
 table-section-js is a jQuery plugin adding sticky headers and/or sections "à la" iOS for HTML tables.
 Twitter Bootstrap is recommended but not mandatory.
 
-See table-section-js in action: http://table-section-js.dandrea.me
-
 
 ## Usage
 
