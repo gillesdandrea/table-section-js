@@ -25,8 +25,10 @@
             voffset = Math.max(0, (scrollTop - (hpoint - $row.height())));
             $(frows[index]).css("visibility", "visible")
                            .css("top", settings.verticalOffset - voffset);
+            $(rows[index]).css("visibility", "hidden");
           } else {
             $(frows[index]).css("visibility", "hidden");
+            $(rows[index]).css("visibility", "visible");
           }
         });
       });
